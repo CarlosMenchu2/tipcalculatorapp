@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { CalculatorCard } from './components/calculator-card/Calculator-card';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <CalculatorCard />
   </React.StrictMode>,
   document.getElementById('root')
 );
